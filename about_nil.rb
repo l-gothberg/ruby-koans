@@ -32,7 +32,10 @@ class AboutNil < Neo::Koan
     #    obj.nil?
     # or
     #    obj == nil
+    # I cannot see why one is better than the other, but obj.nil? might be easier to read.
+
     # Why?
+    # The former is a little more pleasing to read.
   end
 
 end
